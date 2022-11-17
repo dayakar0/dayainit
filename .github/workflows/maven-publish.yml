@@ -1,9 +1,9 @@
 name: Main Branch
 
 on:
- push:
+  push:
     branches:
-        -'main'
+      - 'main'
 jobs:
     compile:
          name : "compile project"
