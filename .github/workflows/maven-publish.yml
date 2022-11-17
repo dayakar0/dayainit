@@ -2,7 +2,7 @@ name: Main Branch
 
 on:
  push:
-    branches:
+     branches:
         -'main'
 jobs:
     compile:
