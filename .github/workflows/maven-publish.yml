@@ -1,9 +1,15 @@
 name: Main Branch
 
 on:
+<<<<<<< HEAD
   push:
     branches:
       - 'main'
+=======
+ push:
+     branches:
+        -'main'
+>>>>>>> b6b1aa47a8b6ab1baa66aa7abd29e7f9c3646096
 jobs:
     compile:
          name : "compile project"
